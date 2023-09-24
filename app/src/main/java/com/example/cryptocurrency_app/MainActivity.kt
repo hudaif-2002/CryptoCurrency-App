@@ -1,11 +1,11 @@
 package com.example.cryptocurrency_app
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.LayoutInflater
 import android.widget.Toast
+import android.view.LayoutInflater
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.volley.Response
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 if(filterdata.isEmpty())
                 {
-                    Toast.makeText(this@MainActivity,"No data Available!",Toast.LENGTH_LONG).show()
+                    Toast.makeText(this@MainActivity,"No data Available!",Toast.LENGTH_SHORT).show()
 
                 }
                 else

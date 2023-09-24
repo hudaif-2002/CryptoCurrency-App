@@ -24,7 +24,8 @@
             app:layout_constraintEnd_toStartOf="@+id/price"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/price"
@@ -37,7 +38,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/symbol"
-            app:layout_constraintTop_toTopOf="@+id/symbol" />
+            app:layout_constraintTop_toTopOf="@+id/symbol"
+            tools:ignore="HardcodedText" />
 
         <TextView
             android:id="@+id/name"
@@ -51,7 +53,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/symbol"
             app:layout_constraintStart_toStartOf="@+id/symbol"
-            app:layout_constraintTop_toBottomOf="@+id/symbol" />
+            app:layout_constraintTop_toBottomOf="@+id/symbol"
+            tools:ignore="HardcodedText" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
